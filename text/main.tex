@@ -1,3 +1,4 @@
+
 \documentclass[a4paper,12pt]{article}
 
 \usepackage[style=chicago-authordate]{biblatex}
@@ -6,6 +7,7 @@
 \usepackage[brazil]{babel}
 \usepackage{amsmath}
 \usepackage{geometry}
+\geometry{a4paper, top=2.5cm, bottom=2.0cm, left=2.5cm, right=2.5cm} % Margens ajustadas
 \usepackage{multirow, booktabs}
 \usepackage{graphicx}
 \usepackage{setspace}
@@ -41,12 +43,16 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{\footnotesize Cefet-MG: L06CSD - Solução da lista de exercícios VII}
+\lhead{\footnotesize Cefet-MG: L07CSD - Solução da lista de exercícios VII}
 \cfoot{\footnotesize \thepage}
+
+\setlength{\footskip}{0.8cm} % Espaço entre o texto e o rodapé
+\setlength{\headheight}{13.6pt} % Altura do cabeçalho
 
 \setlength{\parindent}{0in}
 
 \renewcommand{\arraystretch}{1.5} % Ajusta o espaçamento entre as linhas do array
+
 
 \begin{document}
 
@@ -127,7 +133,7 @@ denominador_H = [1,0,-16];
 
 numerador_I = 5;
 denominador_I = [1,6,9];
-% Calcular os pólos (raízes do denominador)
+% Calcular os polos (raizes do denominador)
 poles_A = roots(denominador_A);
 poles_B = roots(denominador_B);
 poles_C = roots(denominador_C);
@@ -138,32 +144,32 @@ poles_G = roots(denominador_G);
 poles_H = roots(denominador_H);
 poles_I = roots(denominador_I);
 
-% Exibir os pólos
-disp('Pólos de A:');
+% Exibir os polos
+disp('Polos de A:');
 disp(poles_A);
 
-disp('Pólos de B:');
+disp('Polos de B:');
 disp(poles_B);
 
-disp('Pólos de C:');
+disp('Polos de C:');
 disp(poles_C);
 
-disp('Pólos de D:');
+disp('Polos de D:');
 disp(poles_D);
 
-disp('Pólos de E:');
+disp('Polos de E:');
 disp(poles_E);
 
-disp('Pólos de F:');
+disp('Polos de F:');
 disp(poles_F);
 
-disp('Pólos de G:');
+disp('Polos de G:');
 disp(poles_G);
 
-disp('Pólos de H:');
+disp('Polos de H:');
 disp(poles_H);
 
-disp('Pólos de I:');
+disp('Polos de I:');
 disp(poles_I);
 
 %Plotar no grafico
@@ -195,7 +201,69 @@ step(plot_H,10);
 plot_I = tf(numerador_I,denominador_I);
 step(plot_I,10);
         \end{lstlisting}
+        Sobre os gráficos gerados pelas funções acima com o uso da função \texttt{step}, temos então \ref{fig1a}, \ref{fig1b}, \ref{fig1c}, \ref{fig1d}
+        , \ref{fig1e}, \ref{fig1f}, \ref{fig1g}, \ref{fig1h} e \ref{fig1i} como figuras que representam estes gráficos.
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1a.png}
+            \caption{Resposta ao degrau \texttt{1a}}
+            \label{fig1a}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1b.png}
+            \caption{Resposta ao degrau \texttt{1b}}
+            \label{fig1b}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1c.png}
+            \caption{Resposta ao degrau \texttt{1c}}
+            \label{fig1c}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1d.png}
+            \caption{Resposta ao degrau \texttt{1d}}
+            \label{fig1d}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1e.png}
+            \caption{Resposta ao degrau \texttt{1e}}
+            \label{fig1e}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1f.png}
+            \caption{Resposta ao degrau \texttt{1f}}
+            \label{fig1f}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1g.png}
+            \caption{Resposta ao degrau \texttt{1g}}
+            \label{fig1g}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1h.png}
+            \caption{Resposta ao degrau \texttt{1h}}
+            \label{fig1h}
+        \end{figure}
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[scale=0.4]{../fig/fig1i.png}
+            \caption{Resposta ao degrau \texttt{1i}}
+            \label{fig1i}
+        \end{figure}
 
+        Em função das caracteríisticas já estudadas, conseguimos dizer que a presença de pólos reais no lado positivo do plano cartesiano,
+        faz com que o sistema se torne instável, de forma que essa é uma característica comum nestes gráficos que damos como instáveis a seguir.
+        %
+
+        Verificamos como funções com respostas estáveis, \ref{fig1c}, \ref{fig1d}, \ref{fig1e} e \ref{fig1i}. Agora como instáveis, temos então
+        \ref{fig1a}, \ref{fig1b}, \ref{fig1f}, \ref{fig1g} e \ref{fig1h}.
 
         \item Sejam os sistemas representados pelas seguintes funções:
         \[

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  5 DEC 2024 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  6 DEC 2024 18:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -700,24 +700,24 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \auxil\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 Package biblatex Info: Trying to load language 'brazil'...
 Package biblatex Info: ... file 'brazil.lbx' found.
 
@@ -747,8 +747,8 @@ Package biblatex Info: ... file 'main.bbl' found.
 
 (C:/Users\joaop\WritersideProjects\L09CSD - Soluca莽茫o da lista de exerc铆cios
 \auxil\main.bbl)
-Package biblatex Info: Reference section=0 on input line 51.
-Package biblatex Info: Reference segment=0 on input line 51.
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -758,19 +758,19 @@ Package biblatex Info: Reference segment=0 on input line 51.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
-* \headheight=12.0pt
+* \textwidth=455.24411pt
+* \textheight=717.00946pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=13.6pt
 * \headsep=25.0pt
 * \topskip=12.0pt
-* \footskip=30.0pt
+* \footskip=22.76228pt
 * \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -810,19 +810,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \celsius on input line 51.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 51.
+LaTeX Info: Redefining \celsius on input line 57.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 57.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 51.
-Package gensymb Info: Using \Omega for \ohm on input line 51.
+LaTeX Info: Redefining \ohm on input line 57.
+Package gensymb Info: Using \Omega for \ohm on input line 57.
 
 Package gensymb Warning: Not defining \micro.
 
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 57.
 
 (C:/Users\joaop\WritersideProjects\L09CSD - Soluca莽茫o da lista de exerc铆cios
 \auxil\main.out)
@@ -832,19 +832,19 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \openout4 = `main.out'.
 
 \c@lstlisting=\count446
-LaTeX Info: Redefining \microtypecontext on input line 51.
-Package microtype Info: Applying patch `item' on input line 51.
-Package microtype Info: Applying patch `toc' on input line 51.
-Package microtype Info: Applying patch `eqnum' on input line 51.
-Package microtype Info: Applying patch `footnote' on input line 51.
-Package microtype Info: Applying patch `verbatim' on input line 51.
+LaTeX Info: Redefining \microtypecontext on input line 57.
+Package microtype Info: Applying patch `item' on input line 57.
+Package microtype Info: Applying patch `toc' on input line 57.
+Package microtype Info: Applying patch `eqnum' on input line 57.
+Package microtype Info: Applying patch `footnote' on input line 57.
+Package microtype Info: Applying patch `verbatim' on input line 57.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 51.
+LaTeX Info: Redefining \showhyphens on input line 57.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -853,381 +853,66 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Overfull \hbox (34.76404pt too wide) in paragraph at lines 59--66
-[][] 
- []
-
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
 [1
 
-{C:/Users/joaop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-main.tex:130: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 % Calcular os p贸los 
-                           (ra铆zes do denominador)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:130: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 % Calcular os p贸los 
-                           (ra铆zes do denominador)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:130: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 % Calcular os p贸los (ra铆zes 
-                                    do denominador)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:130: LaTeX Error: Invalid UTF-8 byte "AD.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.130 % Calcular os p贸los (ra铆zes 
-                                    do denominador)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:141: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 % Exibir os p贸los
-                        
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:141: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 % Exibir os p贸los
-                        
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:142: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 disp('P贸los 
-                   de A:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:142: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 disp('P贸los 
-                   de A:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:145: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 disp('P贸los 
-                   de B:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:145: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 disp('P贸los 
-                   de B:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:148: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 disp('P贸los 
-                   de C:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:148: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 disp('P贸los 
-                   de C:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[2]
-
-main.tex:151: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 disp('P贸los 
-                   de D:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:151: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 disp('P贸los 
-                   de D:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:154: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 disp('P贸los 
-                   de E:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:154: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 disp('P贸los 
-                   de E:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:157: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 disp('P贸los 
-                   de F:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:157: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 disp('P贸los 
-                   de F:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:160: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 disp('P贸los 
-                   de G:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:160: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 disp('P贸los 
-                   de G:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:163: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 disp('P贸los 
-                   de H:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:163: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 disp('P贸los 
-                   de H:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:166: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 disp('P贸los 
-                   de I:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-main.tex:166: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.166 disp('P贸los 
-                   de I:');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[3] [4]
-
-LaTeX Warning: Empty bibliography on input line 237.
+{C:/Users/joaop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+<../fig/fig1a.png, id=100, 875.27pt x 656.4525pt>
+File: ../fig/fig1a.png Graphic file (type png)
+<use ../fig/fig1a.png>
+Package pdftex.def Info: ../fig/fig1a.png  used on input line 208.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1b.png, id=101, 875.27pt x 656.4525pt>
+File: ../fig/fig1b.png Graphic file (type png)
+<use ../fig/fig1b.png>
+Package pdftex.def Info: ../fig/fig1b.png  used on input line 214.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1c.png, id=102, 875.27pt x 656.4525pt>
+File: ../fig/fig1c.png Graphic file (type png)
+<use ../fig/fig1c.png>
+Package pdftex.def Info: ../fig/fig1c.png  used on input line 220.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1d.png, id=103, 875.27pt x 656.4525pt>
+File: ../fig/fig1d.png Graphic file (type png)
+<use ../fig/fig1d.png>
+Package pdftex.def Info: ../fig/fig1d.png  used on input line 226.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1e.png, id=104, 875.27pt x 656.4525pt>
+File: ../fig/fig1e.png Graphic file (type png)
+<use ../fig/fig1e.png>
+Package pdftex.def Info: ../fig/fig1e.png  used on input line 232.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1f.png, id=105, 875.27pt x 656.4525pt>
+File: ../fig/fig1f.png Graphic file (type png)
+<use ../fig/fig1f.png>
+Package pdftex.def Info: ../fig/fig1f.png  used on input line 238.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1g.png, id=106, 875.27pt x 656.4525pt>
+File: ../fig/fig1g.png Graphic file (type png)
+<use ../fig/fig1g.png>
+Package pdftex.def Info: ../fig/fig1g.png  used on input line 244.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1h.png, id=107, 875.27pt x 656.4525pt>
+File: ../fig/fig1h.png Graphic file (type png)
+<use ../fig/fig1h.png>
+Package pdftex.def Info: ../fig/fig1h.png  used on input line 250.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig1i.png, id=108, 875.27pt x 656.4525pt>
+File: ../fig/fig1i.png Graphic file (type png)
+<use ../fig/fig1i.png>
+Package pdftex.def Info: ../fig/fig1i.png  used on input line 256.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+
+[3] [4 <../fig/fig1a.png (PNG copy)> <../fig/fig1b.png (PNG copy)>] [5 <../fig/
+fig1c.png (PNG copy)> <../fig/fig1d.png (PNG copy)>] [6 <../fig/fig1e.png (PNG 
+copy)> <../fig/fig1f.png (PNG copy)>] [7 <../fig/fig1g.png (PNG copy)> <../fig/
+fig1h.png (PNG copy)>] [8 <../fig/fig1i.png (PNG copy)>]
+
+LaTeX Warning: Empty bibliography on input line 305.
 
 
 (C:/Users\joaop\WritersideProjects\L09CSD - Soluca莽茫o da lista de exerc铆cios
@@ -1243,11 +928,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24575 strings out of 474370
- 429572 string characters out of 5740536
- 2097754 words of memory out of 5000000
- 46593 multiletter control sequences out of 15000+600000
- 564222 words of font info for 74 fonts, out of 8000000 for 9000
+ 24670 strings out of 474370
+ 431291 string characters out of 5740536
+ 2149754 words of memory out of 5000000
+ 46668 multiletter control sequences out of 15000+600000
+ 564418 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,81p,1003b,2649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1263,9 +948,9 @@ aop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
 Output written on "C:/Users\joaop\WritersideProjects\L09CSD - Soluca莽茫o da li
-sta de exerc铆cios\out\main.pdf" (4 pages, 144200 bytes).
+sta de exerc铆cios\out\main.pdf" (8 pages, 376752 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
- 18945 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 18990 words of extra memory for PDF output out of 20736 (max. 10000000)
 
