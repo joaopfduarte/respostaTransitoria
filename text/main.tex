@@ -1,0 +1,239 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[style=chicago-authordate]{biblatex}
+\addbibresource{../bibfile.bib}
+
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{multirow, booktabs}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{microtype}
+
+\lstset{
+    language=Octave,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{gray!10},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    title=\lstname,
+    basicstyle=\ttfamily,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red},
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\footnotesize Cefet-MG: L06CSD - Solução da lista de exercícios VII}
+\cfoot{\footnotesize \thepage}
+
+\setlength{\parindent}{0in}
+
+\renewcommand{\arraystretch}{1.5} % Ajusta o espaçamento entre as linhas do array
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Seção de Título
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \thispagestyle{empty} % Desativa cabeçalho na primeira página
+
+    \begin{tabular}{p{15.5cm}}
+    {\large \textbf{Controle de Sistemas Dinâmicos} } \\
+    Centro Federal de Educação Tecnológica de Minas Gerais \\
+    02 de dezembro de 2024 \\ Campus Timóteo \\
+    \hline
+    \\
+    \end{tabular}
+
+    \vspace*{0.3cm}
+
+    \begin{center}
+    {\Large \textbf{Resolução da lista de exercícios VII}}
+        \vspace{2mm}
+
+        {\textbf{Eliel Vitor Almeida \\ João Pedro Ferreira Duarte \\ Marcos Vinícius de Oliveira Silva }}
+    \end{center}
+
+    \vspace{0.4cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Corpo do Documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    Em sequência, estão os comandos e resoluções das questões da avaliação.
+
+    \begin{enumerate}
+        \item Crie as seguintes funções de transferência na forma polinomial:
+        \[
+            \begin{array}{ccc}
+                \frac{3}{2s + 1} & \frac{3}{2s - 1} & \frac{5}{(s + 2) \cdot (s + 5)} \\
+                \frac{5}{(s - 2) \cdot (s - 5)} & \frac{5}{s^2 + 2s + 5} & \frac{5}{s^2 - 2s + 5} \\
+                \frac{5}{s^2 + 16} & \frac{5}{s^2 - 16} & \frac{5}{s^2 + 6s + 9} \\
+            \end{array}
+        \]
+
+        \begin{enumerate}
+            \item Calcule os pólos de cada função de transferência.
+            \item Plote a resposta ao degrau de cada função de transferência. Use a função \texttt{step}.
+            \item Descreva o comportamento de cada resposta obtida, fale sobre a estabilidade do sistema e relacione este comportamento aos pólos. Comente e conclua.
+        \end{enumerate}
+        Em resposta aos itens anteriores:
+        \vspace{0.5cm}
+        \begin{lstlisting}
+pkg load control;
+
+numerador_A = 3;
+denominador_A = [2, 1];
+
+numerador_B = 3;
+denominador_B = [2, -1];
+
+numerador_C = 5;
+denominador_C = [-2,-5];
+
+numerador_D = 5;
+denominador_D = [2,5];
+
+numerador_E = 5;
+denominador_E = [1,2,5];
+
+numerador_F = 5;
+denominador_F = [1,-2,5];
+
+numerador_G = 5;
+denominador_G = [1,0,16];
+
+numerador_H = 5;
+denominador_H = [1,0,-16];
+
+numerador_I = 5;
+denominador_I = [1,6,9];
+% Calcular os pólos (raízes do denominador)
+poles_A = roots(denominador_A);
+poles_B = roots(denominador_B);
+poles_C = roots(denominador_C);
+poles_D = roots(denominador_D);
+poles_E = roots(denominador_E);
+poles_F = roots(denominador_F);
+poles_G = roots(denominador_G);
+poles_H = roots(denominador_H);
+poles_I = roots(denominador_I);
+
+% Exibir os pólos
+disp('Pólos de A:');
+disp(poles_A);
+
+disp('Pólos de B:');
+disp(poles_B);
+
+disp('Pólos de C:');
+disp(poles_C);
+
+disp('Pólos de D:');
+disp(poles_D);
+
+disp('Pólos de E:');
+disp(poles_E);
+
+disp('Pólos de F:');
+disp(poles_F);
+
+disp('Pólos de G:');
+disp(poles_G);
+
+disp('Pólos de H:');
+disp(poles_H);
+
+disp('Pólos de I:');
+disp(poles_I);
+
+%Plotar no grafico
+
+plot_A = tf(numerador_A,denominador_A);
+step(plot_A,10);
+
+plot_B = tf(numerador_B,denominador_B);
+step(plot_B,10);
+
+plot_C = tf(numerador_C,denominador_C);
+step(plot_C,10);
+
+plot_D = tf(numerador_D,denominador_D);
+step(plot_D,10);
+
+plot_E = tf(numerador_E,denominador_E);
+step(plot_E,10);
+
+plot_F = tf(numerador_F,denominador_F);
+step(plot_F,10);
+
+plot_G = tf(numerador_G,denominador_G);
+step(plot_G,10);
+
+plot_H = tf(numerador_H,denominador_H);
+step(plot_H,10);
+
+plot_I = tf(numerador_I,denominador_I);
+step(plot_I,10);
+        \end{lstlisting}
+
+
+        \item Sejam os sistemas representados pelas seguintes funções:
+        \[
+            \begin{array}{cc}
+                G_1 = \frac{1}{2s + 1}, & G_2 = \frac{1}{s^2 + 0.5s + 1}
+            \end{array}
+        \]
+        \begin{enumerate}
+            \item Verifique como tais sistemas respondem às seguintes entradas:
+            \begin{enumerate}
+                \item Rampa.
+                \item Impulso.
+                \item Plote o gráfico de cada uma das funções.
+            \end{enumerate}
+        \end{enumerate}
+
+
+        \item Considere o sistema com realimentação descrito na figura abaixo:
+        \begin{enumerate}
+            \item Calcule a função de transferência em malha fechada usando as funções \texttt{series} e \texttt{feedback}.
+            \item Obtenha a resposta ao degrau unitário do sistema em malha fechada com a função \texttt{step} e verifique que o valor final da saída é $\frac{2}{5}$.
+        \end{enumerate}
+
+        \item Um sistema possui a seguinte função de transferência:
+        \begin{equation}
+            \frac{X(s)}{R(s)} = \frac{\frac{20}{z} \cdot (s + z)}{s^2 + 3s + 20}
+        \end{equation}
+        \begin{enumerate}
+            \item Obtenha a resposta ao degrau unitário do sistema para o parâmetro \(z = 5\), \(z = 10\), e \(z = 15\).
+            \item Plote as 3 curvas no mesmo gráfico. Compare, comente e conclua.
+        \end{enumerate}
+    \end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Referências e Bibliografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \clearpage
+    \printbibliography
+
+\end{document}
