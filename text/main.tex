@@ -86,7 +86,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     Em sequência, estão os comandos e resoluções das questões da avaliação.
-
+    Há também referências para quaisquer figuras e/ou ilustrações usadas durante o desenvolvimento do presente texto em
+    espaço reservado ao fim da resolução das questões.
     \begin{enumerate}
         \item Crie as seguintes funções de transferência na forma polinomial:
         \[
@@ -203,60 +204,7 @@ step(plot_I,10);
         \end{lstlisting}
         Sobre os gráficos gerados pelas funções acima com o uso da função \texttt{step}, temos então \ref{fig1a}, \ref{fig1b}, \ref{fig1c}, \ref{fig1d}
         , \ref{fig1e}, \ref{fig1f}, \ref{fig1g}, \ref{fig1h} e \ref{fig1i} como figuras que representam estes gráficos.
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1a.png}
-            \caption{Resposta ao degrau \texttt{1a}}
-            \label{fig1a}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1b.png}
-            \caption{Resposta ao degrau \texttt{1b}}
-            \label{fig1b}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1c.png}
-            \caption{Resposta ao degrau \texttt{1c}}
-            \label{fig1c}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1d.png}
-            \caption{Resposta ao degrau \texttt{1d}}
-            \label{fig1d}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1e.png}
-            \caption{Resposta ao degrau \texttt{1e}}
-            \label{fig1e}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1f.png}
-            \caption{Resposta ao degrau \texttt{1f}}
-            \label{fig1f}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1g.png}
-            \caption{Resposta ao degrau \texttt{1g}}
-            \label{fig1g}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1h.png}
-            \caption{Resposta ao degrau \texttt{1h}}
-            \label{fig1h}
-        \end{figure}
-        \begin{figure}[h]
-            \centering
-            \includegraphics[scale=0.4]{../fig/fig1i.png}
-            \caption{Resposta ao degrau \texttt{1i}}
-            \label{fig1i}
-        \end{figure}
+
 
         Em função das caracteríisticas já estudadas, conseguimos dizer que a presença de pólos reais no lado positivo do plano cartesiano,
         faz com que o sistema se torne instável, de forma que essa é uma característica comum nestes gráficos que damos como instáveis a seguir.
@@ -318,34 +266,7 @@ title ("Funcao impulse com a FT rampa 2b");
             \end{lstlisting}
             Os gráficos feitos em resposta ao código gerado, podem ser consultados abaixo, em \ref{fig2aStep}, \ref{fig2aImpulse}, \ref{fig2bStep} e
             \ref{fig2bImpulse}:
-            \begin{figure}[h]
-                \centering
-                \includegraphics[scale=0.4]{../fig/fig2aStep.png}
-                \caption{Resposta com função \texttt{Step} à FT}
-                \label{fig2aStep}
-            \end{figure}
-            \begin{figure}[h]
-                \centering
-                \includegraphics[scale=0.4]{../fig/fig2aImpulse.png}
-                \caption{Resposta com função \texttt{Impulse} à FT}
-                \label{fig2aImpulse}
-            \end{figure}
-            \begin{figure}[h]
-                \centering
-                \includegraphics[scale=0.4]{../fig/fig2bStep.png}
-                \caption{Resposta com função \texttt{Step} à FT}
-                \label{fig2bStep}
-            \end{figure}
-            \begin{figure}[h]
-                \centering
-                \includegraphics[scale=0.4]{../fig/fig2bImpulse.png}
-                \caption{Resposta com função \texttt{Impulse} à FT}
-                \label{fig2bImpulse}
-            \end{figure}
-
         \end{enumerate}
-
-
         \item Considere o sistema com realimentação descrito na figura anexa à atividade:
         \begin{enumerate}
             \item Calcule a função de transferência em malha fechada usando as funções \texttt{series} e \texttt{feedback}.
@@ -369,8 +290,30 @@ display(sysFeedback);
             \begin{array}{cc}
                 y_1 = \frac{s + 2}{s^2 + 4s + 3}, & y_2 = \frac{s + 3}{s^2 + 5s + 5}
             \end{array}
-            \item Obtenha a resposta ao degrau unitário do sistema em malha fechada com a função \texttt{step} e verifique que o valor final
+            \item  \label{3b} Obtenha a resposta ao degrau unitário do sistema em malha fechada com a função \texttt{step} e verifique que o valor final
             da saída é $\frac{2}{5}$.
+            \begin{lstlisting}
+pkg load control;
+
+sys1 = tf([1], [1, 1]);
+sys2 = tf([1, 2], [1, 3]);
+
+sysSeries = series(sys1, sys2);
+
+sysFeedback = feedback(sysSeries, 1);
+
+disp('Sistema em série:');
+display(sysSeries);
+
+disp('Sistema em malha fechada (feedback):');
+display(sysFeedback);
+
+[num, den] = tfdata(sysFeedback, 'vetor');
+valorFinal = dcgain(sysFeedback);
+
+disp(['Valor final da saida: ', num2str(valorFinal)]);
+            \end{lstlisting}
+            Com valor de saída de \ref{3b} igual à $0.4$ ou $\frac{2}{5}$.
         \end{enumerate}
 
         \item Um sistema possui a seguinte função de transferência:
@@ -382,6 +325,87 @@ display(sysFeedback);
             \item Plote as 3 curvas no mesmo gráfico. Compare, comente e conclua.
         \end{enumerate}
     \end{enumerate}
+
+    \newpage
+    Abaixo segue a lista de todas as imagens dos gráficos referenciados durante o presente texto:
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1a.png}
+        \caption{Resposta ao degrau \texttt{1a}}
+        \label{fig1a}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1b.png}
+        \caption{Resposta ao degrau \texttt{1b}}
+        \label{fig1b}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1c.png}
+        \caption{Resposta ao degrau \texttt{1c}}
+        \label{fig1c}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1d.png}
+        \caption{Resposta ao degrau \texttt{1d}}
+        \label{fig1d}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1e.png}
+        \caption{Resposta ao degrau \texttt{1e}}
+        \label{fig1e}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1f.png}
+        \caption{Resposta ao degrau \texttt{1f}}
+        \label{fig1f}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1g.png}
+        \caption{Resposta ao degrau \texttt{1g}}
+        \label{fig1g}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1h.png}
+        \caption{Resposta ao degrau \texttt{1h}}
+        \label{fig1h}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig1i.png}
+        \caption{Resposta ao degrau \texttt{1i}}
+        \label{fig1i}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig2aStep.png}
+        \caption{Resposta com função \texttt{Step} à FT}
+        \label{fig2aStep}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig2aImpulse.png}
+        \caption{Resposta com função \texttt{Impulse} à FT}
+        \label{fig2aImpulse}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig2bStep.png}
+        \caption{Resposta com função \texttt{Step} à FT}
+        \label{fig2bStep}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig2bImpulse.png}
+        \caption{Resposta com função \texttt{Impulse} à FT}
+        \label{fig2bImpulse}
+    \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Referências e Bibliografia
