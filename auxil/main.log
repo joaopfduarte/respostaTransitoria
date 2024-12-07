@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  7 DEC 2024 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  7 DEC 2024 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,70 +912,136 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 [5]
-<../fig/fig1a.png, id=251, 875.27pt x 656.4525pt>
+
+main.tex:346: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 title('Resposta ao Degrau Unitário 
+                                          para Diferentes Valores de z');
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+main.tex:346: LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 title('Resposta ao Degrau Unitário 
+                                          para Diferentes Valores de z');
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+main.tex:348: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348 ylabel('Saída'
+                     );
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+main.tex:348: LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348 ylabel('Saída'
+                     );
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[6]
+<../fig/fig1a.png, id=281, 875.27pt x 656.4525pt>
 File: ../fig/fig1a.png Graphic file (type png)
 <use ../fig/fig1a.png>
-Package pdftex.def Info: ../fig/fig1a.png  used on input line 333.
+Package pdftex.def Info: ../fig/fig1a.png  used on input line 360.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1b.png, id=252, 875.27pt x 656.4525pt>
+<../fig/fig1b.png, id=282, 875.27pt x 656.4525pt>
 File: ../fig/fig1b.png Graphic file (type png)
 <use ../fig/fig1b.png>
-Package pdftex.def Info: ../fig/fig1b.png  used on input line 339.
+Package pdftex.def Info: ../fig/fig1b.png  used on input line 366.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1c.png, id=253, 875.27pt x 656.4525pt>
+<../fig/fig1c.png, id=283, 875.27pt x 656.4525pt>
 File: ../fig/fig1c.png Graphic file (type png)
 <use ../fig/fig1c.png>
-Package pdftex.def Info: ../fig/fig1c.png  used on input line 345.
+Package pdftex.def Info: ../fig/fig1c.png  used on input line 372.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1d.png, id=254, 875.27pt x 656.4525pt>
+<../fig/fig1d.png, id=284, 875.27pt x 656.4525pt>
 File: ../fig/fig1d.png Graphic file (type png)
 <use ../fig/fig1d.png>
-Package pdftex.def Info: ../fig/fig1d.png  used on input line 351.
+Package pdftex.def Info: ../fig/fig1d.png  used on input line 378.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1e.png, id=255, 875.27pt x 656.4525pt>
+<../fig/fig1e.png, id=285, 875.27pt x 656.4525pt>
 File: ../fig/fig1e.png Graphic file (type png)
 <use ../fig/fig1e.png>
-Package pdftex.def Info: ../fig/fig1e.png  used on input line 357.
+Package pdftex.def Info: ../fig/fig1e.png  used on input line 384.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1f.png, id=256, 875.27pt x 656.4525pt>
+<../fig/fig1f.png, id=286, 875.27pt x 656.4525pt>
 File: ../fig/fig1f.png Graphic file (type png)
 <use ../fig/fig1f.png>
-Package pdftex.def Info: ../fig/fig1f.png  used on input line 363.
+Package pdftex.def Info: ../fig/fig1f.png  used on input line 390.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1g.png, id=257, 875.27pt x 656.4525pt>
+<../fig/fig1g.png, id=287, 875.27pt x 656.4525pt>
 File: ../fig/fig1g.png Graphic file (type png)
 <use ../fig/fig1g.png>
-Package pdftex.def Info: ../fig/fig1g.png  used on input line 369.
+Package pdftex.def Info: ../fig/fig1g.png  used on input line 396.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1h.png, id=258, 875.27pt x 656.4525pt>
+<../fig/fig1h.png, id=288, 875.27pt x 656.4525pt>
 File: ../fig/fig1h.png Graphic file (type png)
 <use ../fig/fig1h.png>
-Package pdftex.def Info: ../fig/fig1h.png  used on input line 375.
+Package pdftex.def Info: ../fig/fig1h.png  used on input line 402.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig1i.png, id=259, 875.27pt x 656.4525pt>
+<../fig/fig1i.png, id=289, 875.27pt x 656.4525pt>
 File: ../fig/fig1i.png Graphic file (type png)
 <use ../fig/fig1i.png>
-Package pdftex.def Info: ../fig/fig1i.png  used on input line 381.
+Package pdftex.def Info: ../fig/fig1i.png  used on input line 408.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig2aStep.png, id=260, 875.27pt x 656.4525pt>
+<../fig/fig2aStep.png, id=290, 875.27pt x 656.4525pt>
 File: ../fig/fig2aStep.png Graphic file (type png)
 <use ../fig/fig2aStep.png>
-Package pdftex.def Info: ../fig/fig2aStep.png  used on input line 387.
+Package pdftex.def Info: ../fig/fig2aStep.png  used on input line 414.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
-<../fig/fig2aImpulse.png, id=261, 825.0825pt x 618.31pt>
+<../fig/fig2aImpulse.png, id=291, 825.0825pt x 618.31pt>
 File: ../fig/fig2aImpulse.png Graphic file (type png)
 <use ../fig/fig2aImpulse.png>
-Package pdftex.def Info: ../fig/fig2aImpulse.png  used on input line 393.
+Package pdftex.def Info: ../fig/fig2aImpulse.png  used on input line 420.
 (pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
-<../fig/fig2bStep.png, id=262, 825.0825pt x 618.31pt>
+<../fig/fig2bStep.png, id=292, 825.0825pt x 618.31pt>
 File: ../fig/fig2bStep.png Graphic file (type png)
 <use ../fig/fig2bStep.png>
-Package pdftex.def Info: ../fig/fig2bStep.png  used on input line 399.
+Package pdftex.def Info: ../fig/fig2bStep.png  used on input line 426.
 (pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
-<../fig/fig2bImpulse.png, id=263, 825.0825pt x 618.31pt>
+<../fig/fig2bImpulse.png, id=293, 825.0825pt x 618.31pt>
 File: ../fig/fig2bImpulse.png Graphic file (type png)
 <use ../fig/fig2bImpulse.png>
-Package pdftex.def Info: ../fig/fig2bImpulse.png  used on input line 405.
+Package pdftex.def Info: ../fig/fig2bImpulse.png  used on input line 432.
+(pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
+<../fig/fig4.png, id=294, 825.0825pt x 618.31pt>
+File: ../fig/fig4.png Graphic file (type png)
+<use ../fig/fig4.png>
+Package pdftex.def Info: ../fig/fig4.png  used on input line 438.
 (pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
 
 
@@ -1014,14 +1080,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <../fig/fig1a.png (PNG copy)>] [7 <../fig/fig1b.png (PNG copy)> <../fig/fig1
-c.png (PNG copy)>] [8 <../fig/fig1d.png (PNG copy)> <../fig/fig1e.png (PNG copy
-)>] [9 <../fig/fig1f.png (PNG copy)> <../fig/fig1g.png (PNG copy)>] [10 <../fig
-/fig1h.png (PNG copy)> <../fig/fig1i.png (PNG copy)>] [11 <../fig/fig2aStep.png
- (PNG copy)> <../fig/fig2aImpulse.png (PNG copy)>] [12 <../fig/fig2bStep.png (P
-NG copy)> <../fig/fig2bImpulse.png (PNG copy)>]
 
-LaTeX Warning: Empty bibliography on input line 415.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <../fig/fig1a.png (PNG copy)>] [8 <../fig/fig1b.png (PNG copy)> <../fig/fig1
+c.png (PNG copy)>] [9 <../fig/fig1d.png (PNG copy)> <../fig/fig1e.png (PNG copy
+)>] [10 <../fig/fig1f.png (PNG copy)> <../fig/fig1g.png (PNG copy)>] [11 <../fi
+g/fig1h.png (PNG copy)> <../fig/fig1i.png (PNG copy)>] [12 <../fig/fig2aStep.pn
+g (PNG copy)> <../fig/fig2aImpulse.png (PNG copy)>] [13 <../fig/fig2bStep.png (
+PNG copy)> <../fig/fig2bImpulse.png (PNG copy)>] [14 <../fig/fig4.png (PNG copy
+)>]
+
+LaTeX Warning: Empty bibliography on input line 448.
 
 
 (C:/Users\joaop\WritersideProjects\L09CSD - Solucação da lista de exercícios
@@ -1030,10 +1100,6 @@ LaTeX Warning: Empty bibliography on input line 415.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1041,11 +1107,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24806 strings out of 474370
- 433490 string characters out of 5740536
+ 24850 strings out of 474370
+ 434091 string characters out of 5740536
  2147754 words of memory out of 5000000
- 46721 multiletter control sequences out of 15000+600000
- 564565 words of font info for 81 fonts, out of 8000000 for 9000
+ 46736 multiletter control sequences out of 15000+600000
+ 564614 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,81p,1003b,2649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1061,9 +1127,9 @@ aop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
 Output written on "C:/Users\joaop\WritersideProjects\L09CSD - Solucação da li
-sta de exercícios\out\main.pdf" (12 pages, 491937 bytes).
+sta de exercícios\out\main.pdf" (14 pages, 539900 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
- 19010 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 234 named destinations out of 1000 (max. 500000)
+ 19015 words of extra memory for PDF output out of 20736 (max. 10000000)
 

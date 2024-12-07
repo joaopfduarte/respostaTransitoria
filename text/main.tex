@@ -324,6 +324,33 @@ disp(['Valor final da saida: ', num2str(valorFinal)]);
             \item Obtenha a resposta ao degrau unitário do sistema para o parâmetro \(z = 5\), \(z = 10\), e \(z = 15\).
             \item Plote as 3 curvas no mesmo gráfico. Compare, comente e conclua.
         \end{enumerate}
+        Em resposta ao item, temos então como código referente à solução:
+        \begin{lstlisting}
+pkg load control;
+
+z_values = [5, 10, 15];
+
+figure;
+hold on;
+
+for z = z_values
+    num = (20 / z) * [1, z];  % (20/z) * (s + z)
+    den = [1, 3, 20];         % s^2 + 3s + 20
+
+    sys = tf(num, den);
+
+    [y, t] = step(sys);
+    plot(t, y, 'DisplayName', ['z = ' num2str(z)]);
+end
+
+title('Resposta ao Degrau Unitário para Diferentes Valores de z');
+xlabel('Tempo (s)');
+ylabel('Saída');
+legend('show');
+grid on;
+hold off;
+        \end{lstlisting}
+        O gráfico referente às diferentes curvas de \texttt{z} conforme seu valor, pode ser visto na figura \ref{fig4}.
     \end{enumerate}
 
     \newpage
@@ -405,6 +432,12 @@ disp(['Valor final da saida: ', num2str(valorFinal)]);
         \includegraphics[scale=0.4]{../fig/fig2bImpulse.png}
         \caption{Resposta com função \texttt{Impulse} à FT}
         \label{fig2bImpulse}
+    \end{figure}
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{../fig/fig4.png}
+        \caption{Resposta à variação da curva em função dos diferentes valores de \texttt{z}}
+        \label{fig4}
     \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
