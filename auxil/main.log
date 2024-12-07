@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  6 DEC 2024 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.6)  7 DEC 2024 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,12 +907,94 @@ File: ../fig/fig1i.png Graphic file (type png)
 Package pdftex.def Info: ../fig/fig1i.png  used on input line 256.
 (pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
 
-[3] [4 <../fig/fig1a.png (PNG copy)> <../fig/fig1b.png (PNG copy)>] [5 <../fig/
-fig1c.png (PNG copy)> <../fig/fig1d.png (PNG copy)>] [6 <../fig/fig1e.png (PNG 
-copy)> <../fig/fig1f.png (PNG copy)>] [7 <../fig/fig1g.png (PNG copy)> <../fig/
-fig1h.png (PNG copy)>] [8 <../fig/fig1i.png (PNG copy)>]
 
-LaTeX Warning: Empty bibliography on input line 305.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <../fig/fig1a.png (PNG copy)>]
+<../fig/fig2aStep.png, id=201, 875.27pt x 656.4525pt>
+File: ../fig/fig2aStep.png Graphic file (type png)
+<use ../fig/fig2aStep.png>
+Package pdftex.def Info: ../fig/fig2aStep.png  used on input line 323.
+(pdftex.def)             Requested size: 350.10179pt x 262.57634pt.
+<../fig/fig2aImpulse.png, id=202, 825.0825pt x 618.31pt>
+File: ../fig/fig2aImpulse.png Graphic file (type png)
+<use ../fig/fig2aImpulse.png>
+Package pdftex.def Info: ../fig/fig2aImpulse.png  used on input line 329.
+(pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
+<../fig/fig2bStep.png, id=203, 825.0825pt x 618.31pt>
+File: ../fig/fig2bStep.png Graphic file (type png)
+<use ../fig/fig2bStep.png>
+Package pdftex.def Info: ../fig/fig2bStep.png  used on input line 335.
+(pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
+<../fig/fig2bImpulse.png, id=204, 825.0825pt x 618.31pt>
+File: ../fig/fig2bImpulse.png Graphic file (type png)
+<use ../fig/fig2bImpulse.png>
+Package pdftex.def Info: ../fig/fig2bImpulse.png  used on input line 341.
+(pdftex.def)             Requested size: 330.02715pt x 247.31961pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <../fig/fig1b.png (PNG copy)>]
+main.tex:369: Missing $ inserted.
+<inserted text> 
+                $
+l.369             \begin{array}{cc}
+                                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+main.tex:371: Missing $ inserted.
+<inserted text> 
+                $
+l.371             \end{array}
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[6 <../fig/fig1c.png (PNG copy)>] [7 <../fig/fig1d.png (PNG copy)> <../fig/fig1
+e.png (PNG copy)>] [8 <../fig/fig1f.png (PNG copy)> <../fig/fig1g.png (PNG copy
+)>] [9 <../fig/fig1h.png (PNG copy)> <../fig/fig1i.png (PNG copy)>] [10 <../fig
+/fig2aStep.png (PNG copy)> <../fig/fig2aImpulse.png (PNG copy)>] [11 <../fig/fi
+g2bStep.png (PNG copy)> <../fig/fig2bImpulse.png (PNG copy)>]
+
+LaTeX Warning: Empty bibliography on input line 391.
 
 
 (C:/Users\joaop\WritersideProjects\L09CSD - Solucação da lista de exercícios
@@ -928,11 +1010,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24670 strings out of 474370
- 431291 string characters out of 5740536
+ 24776 strings out of 474370
+ 433107 string characters out of 5740536
  2149754 words of memory out of 5000000
- 46668 multiletter control sequences out of 15000+600000
- 564418 words of font info for 78 fonts, out of 8000000 for 9000
+ 46714 multiletter control sequences out of 15000+600000
+ 564516 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,81p,1003b,2649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -948,9 +1030,9 @@ aop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
 Output written on "C:/Users\joaop\WritersideProjects\L09CSD - Solucação da li
-sta de exercícios\out\main.pdf" (8 pages, 376752 bytes).
+sta de exercícios\out\main.pdf" (11 pages, 486414 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 18990 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 186 named destinations out of 1000 (max. 500000)
+ 19010 words of extra memory for PDF output out of 20736 (max. 10000000)
 

@@ -203,55 +203,55 @@ step(plot_I,10);
         \end{lstlisting}
         Sobre os gráficos gerados pelas funções acima com o uso da função \texttt{step}, temos então \ref{fig1a}, \ref{fig1b}, \ref{fig1c}, \ref{fig1d}
         , \ref{fig1e}, \ref{fig1f}, \ref{fig1g}, \ref{fig1h} e \ref{fig1i} como figuras que representam estes gráficos.
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1a.png}
             \caption{Resposta ao degrau \texttt{1a}}
             \label{fig1a}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1b.png}
             \caption{Resposta ao degrau \texttt{1b}}
             \label{fig1b}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1c.png}
             \caption{Resposta ao degrau \texttt{1c}}
             \label{fig1c}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1d.png}
             \caption{Resposta ao degrau \texttt{1d}}
             \label{fig1d}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1e.png}
             \caption{Resposta ao degrau \texttt{1e}}
             \label{fig1e}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1f.png}
             \caption{Resposta ao degrau \texttt{1f}}
             \label{fig1f}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1g.png}
             \caption{Resposta ao degrau \texttt{1g}}
             \label{fig1g}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1h.png}
             \caption{Resposta ao degrau \texttt{1h}}
             \label{fig1h}
         \end{figure}
-        \begin{figure}[htbp]
+        \begin{figure}[h]
             \centering
             \includegraphics[scale=0.4]{../fig/fig1i.png}
             \caption{Resposta ao degrau \texttt{1i}}
@@ -276,15 +276,101 @@ step(plot_I,10);
             \begin{enumerate}
                 \item Rampa.
                 \item Impulso.
-                \item Plote o gráfico de cada uma das funções.
+                \\
+                Plote o gráfico de cada uma das funções.
             \end{enumerate}
+            Sobre o código de determinada implementação:
+            \begin{lstlisting}
+pkg load control;
+pkg load symbolic;
+
+syms s;
+
+%2a
+figure;
+clf;
+s = tf('s');
+g = (1/(2*s +1))*(1/s);
+step(g);
+title ("Funcao step com a FT rampa 2a");
+
+figure;
+clf;
+s = tf('s');
+g = (1/(2*s +1))*(1/s);
+impulse(g);
+title ("Funcao impulse com a FT rampa 2a");
+
+%2b
+figure;
+clf;
+s = tf('s');
+g = (1/(s^2 +0.5*s + 1))*(1/s);
+step(g);
+title ("Funcao step com a FT rampa 2b");
+
+figure;
+clf;
+s = tf('s');
+g = (1/(s^2 +0.5*s + 1))*(1/s);
+impulse(g);
+title ("Funcao impulse com a FT rampa 2b");
+            \end{lstlisting}
+            Os gráficos feitos em resposta ao código gerado, podem ser consultados abaixo, em \ref{fig2aStep}, \ref{fig2aImpulse}, \ref{fig2bStep} e
+            \ref{fig2bImpulse}:
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.4]{../fig/fig2aStep.png}
+                \caption{Resposta com função \texttt{Step} à FT}
+                \label{fig2aStep}
+            \end{figure}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.4]{../fig/fig2aImpulse.png}
+                \caption{Resposta com função \texttt{Impulse} à FT}
+                \label{fig2aImpulse}
+            \end{figure}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.4]{../fig/fig2bStep.png}
+                \caption{Resposta com função \texttt{Step} à FT}
+                \label{fig2bStep}
+            \end{figure}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.4]{../fig/fig2bImpulse.png}
+                \caption{Resposta com função \texttt{Impulse} à FT}
+                \label{fig2bImpulse}
+            \end{figure}
+
         \end{enumerate}
 
 
-        \item Considere o sistema com realimentação descrito na figura abaixo:
+        \item Considere o sistema com realimentação descrito na figura anexa à atividade:
         \begin{enumerate}
             \item Calcule a função de transferência em malha fechada usando as funções \texttt{series} e \texttt{feedback}.
-            \item Obtenha a resposta ao degrau unitário do sistema em malha fechada com a função \texttt{step} e verifique que o valor final da saída é $\frac{2}{5}$.
+            \begin{lstlisting}
+pkg load control;
+
+sys1 = tf([1], [1, 1]);
+sys2 = tf([1, 2], [1, 3]);
+
+sysSeries = series(sys1, sys2);
+
+sysFeedback = feedback(sys1, sys2);
+
+disp('Sistema em serie:');
+display(sysSeries);
+
+disp('Sistema em malha fechada (feedback):');
+display(sysFeedback);
+            \end{lstlisting}
+            Em resposta ao item, as seguintes funções de transferência foram retornadas:
+            \begin{array}{cc}
+                y_1 = \frac{s + 2}{s^2 + 4s + 3}, & y_2 = \frac{s + 3}{s^2 + 5s + 5}
+            \end{array}
+            \item Obtenha a resposta ao degrau unitário do sistema em malha fechada com a função \texttt{step} e verifique que o valor final
+            da saída é $\frac{2}{5}$.
         \end{enumerate}
 
         \item Um sistema possui a seguinte função de transferência:
